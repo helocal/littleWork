@@ -1,0 +1,11 @@
+<view class="add">
+    <view class="taskBody">
+        <form action="" bindsubmit="bindFormSubmit">
+            <textarea class="taskDetail" name="textarea" id="textarea" placeholder="请输入任务详情" placeholder-style="color:#ccc" maxlength="140"></textarea>
+            <button form-type="submit"> 提交 </button>
+        </form>
+    </view>
+    <view class="taskColor">
+        {{msg}}
+    </view>
+</view>

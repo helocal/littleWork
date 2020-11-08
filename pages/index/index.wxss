@@ -1,0 +1,48 @@
+/**index.wxss**/
+
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo-avatar {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: white;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
+
+
+/* addTask样式 */
+
+.addTask {
+    width: 60%;
+    margin: 30rpx auto;
+    height: 100rpx;
+    background-color: #10D6BB;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 30rpx;
+    border-radius: 10px;
+}
+
+
+/* footer 样式*/
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 28rpx;
+    color: #ccc;
+}

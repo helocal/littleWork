@@ -1,0 +1,13 @@
+    /* taskBody */
+    
+    .taskBody {
+        width: 90%;
+        height: 500rpx;
+        margin: 30rpx auto;
+        border-radius: 10rpx;
+        /* border: 1px solid #ccc; */
+    }
+    
+    .taskDetail {
+        margin: 10rpx auto;
+    }
